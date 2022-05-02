@@ -7,12 +7,9 @@ body {
   box-sizing: border-box;
 }
 
-/* 8. Add style to divs with the "container" class */
- {
-  /* 9. Add 15px padding */
-  
-  /* 10. Make the background color of the container Carolina Blue using the hex code defined here: https://en.wikipedia.org/wiki/Carolina_blue*/
-
+div.container {
+  padding: 15px;
+  background-color: #99badd;
 }
 
 input[type=text], input[type=password] {
@@ -29,31 +26,22 @@ input[type=text]:focus, input[type=password]:focus {
   outline: none;
 }
 
-/* 11. Style only the h1 with id "register" */
-h1 {
-  /* 12. Make the text BOLD */
-  
-  /* 13. Make the text color navy (look up the hex code for navy)
-  
+h1#register {
+  font-weight: bold;
+  color: #000080;
 }
 
 hr {
-  /* 14. Override default hr style with a 30-pixel bottom margin */
-  
-  /* 15. Add a 2-pixel solid azure border (look up the hex code). */
-  
+  margin-bottom: 30px;
+  border: 2px solid #0080ff;
 }
 
-/* 16. Set a style for the submit button with "registerbtn" class */
- {
-  /* 17. Set the background color to navy using the hex color */
-  
-  /* 18. Set the text color to white using the hex color */  
-  
+#registerbtn {
+  background-color:#000080;
+  color: #ffffff;
   padding: 16px 20px;
   margin: 8px 0;
-  /* 19. Set it to have no border */
-  
+  border: none;
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
@@ -64,22 +52,16 @@ hr {
 }
 
 a {
-  /* 20. Make link text color navy blue (look up the hex code) */
-  color: ;
-  /* 21. Set the text-decoration to none for links */
-  text-decoration: ;
+  color: #000080;
+  text-decoration: none;
 }
 
-/* 22. Set style for links using the :hover pseudoclass */
- {
-  /* 23. Change the color of links to azure on mouseover */
-  
-  /* 24. Set the text-decoration to underline for links on mouseover */
-  
+a:hover {
+  color: #0080ff;
+  text-decoration: underline;
 }
 
 .signin {
-  background-color: #f1f1f1
-  /* 25. Align the text for the section with class "signin" to be centered */
-  
+  background-color: #f1f1f1;
+  text-align: center;
 }
